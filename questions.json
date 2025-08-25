@@ -1,0 +1,346 @@
+{
+    "difficulty": {
+        "easy": {
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Qual o resultado de 72÷8?",
+                    "options": [
+                        "9",
+                        "10",
+                        "8",
+                        "7"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 2,
+                    "question": "Se você tem 3 dúzias de bananas, quantas bananas tem?",
+                    "options": [
+                        "39",
+                        "36",
+                        "24",
+                        "12"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 3,
+                    "question": "Qual o valor de 5²?",
+                    "options": [
+                        "39",
+                        "36",
+                        "25",
+                        "12"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 4,
+                    "question": "Qual o número que completa a sequência: 2, 4, 6, 8, ___?",
+                    "options": [
+                        "10",
+                        "14",
+                        "12",
+                        "9"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 5,
+                    "question": "Pedro tem 3 maçãs, João tem o dobro de Pedro e Ana tem o dobro de João. Quantas maçãs Ana tem?",
+                    "options": [
+                        "6",
+                        "9",
+                        "12",
+                        "18"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 6,
+                    "question": "Se hoje é terça-feira, que dia será daqui a 15 dias?",
+                    "options": [
+                        "Terça-feira",
+                        "Quarta-feira",
+                        "Quinta-feira",
+                        "Sexta-feira"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 7,
+                    "question": "Qual o nome do matemático que desenvolveu o Teorema de Pitágoras?",
+                    "options": [
+                        "Pitágoras",
+                        "Euclides",
+                        "Arquímedes",
+                        "Descartes"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 8,
+                    "question": "Quantos graus tem um ângulo reto?",
+                    "options": [
+                        "90",
+                        "80",
+                        "100",
+                        "70"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 9,
+                    "question": "Qual é o número romano que representa 50?",
+                    "options": [
+                        "LXXX",
+                        "XC",
+                        "C",
+                        "L"
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 10,
+                    "question": "Um número somado a 15 resulta em 40. Qual é esse número?",
+                    "options": [
+                        "25",
+                        "30",
+                        "35",
+                        "40"
+                    ],
+                    "correct": 0
+                }
+            ]
+        },
+    "intermediate": {
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Um produto custa R$ 80,00 e está com 25% de desconto. Qual é o valor final do produto?",
+                    "options": [
+                        "60",
+                        "70",
+                        "75",
+                        "80"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 2,
+                    "question": "Qual a raiz quadrada de 144?",
+                    "options": [
+                        "10",
+                        "11",
+                        "12",
+                        "14"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 3,
+                    "question": "Resolva: 2x + 5 = 15.",
+                    "options": [
+                        "5",
+                        "4",
+                        "3",
+                        "6"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 4,
+                    "question": "Complete a sequência: 5, 10, 20, 40, ..., 160.",
+                    "options": [
+                        "50",
+                        "60",
+                        "80",
+                        "100"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 5,
+                    "question": "Quem é considerado pai da álgebra?",
+                    "options": [
+                        "Al-Khwarizmi",
+                        "Pitágoras",
+                        "Euclides",
+                        "Descartes"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 6,
+                    "question": "Em um número decimal, qual é o nome da parte que fica à direita da vírgula?",
+                    "options": [
+                        "Parte inteira",
+                        "Parte decimal",
+                        "Parte racional",
+                        "Parte fracionária"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 7,
+                    "question": "Se um carro percorre 240 km em 4 horas, qual é sua velocidade média?",
+                    "options": [
+                        "70 km/h",
+                        "60 km/h",
+                        "80 km/h",
+                        "90 km/h"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 8,
+                    "question": "Resolva: 3x - 5 = 16",
+                    "options": [
+                        "5",
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 9,
+                    "question": "Uma pizza foi dividida em 12 fatias. João comeu 1/4 da pizza, Quantas fatias ele comeu?",
+                    "options": [
+                        "2",
+                        "3",
+                        "4",
+                        "6"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 10,
+                    "question": "Qual é o número romano que representa 100?",
+                    "options": [
+                        "C",
+                        "D",
+                        "L",
+                        "M"
+                    ],
+                    "correct": 0
+                }
+            ]
+        },
+        "hard": {
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Uma prova vale 80 pontos. João acertou 85% dela. Quantos pontos ele fez?",
+                    "options": [
+                        "66",
+                        "70",
+                        "68",
+                        "74"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 2,
+                    "question": "O número é dividido por 5, e o resultado é 12,4. Qual era o número inicial?",
+                    "options": [
+                        "62",
+                        "63",
+                        "64",
+                        "65"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 3,
+                    "question": "Qual o perímetro de um quadrado cujo lado mede 7,5 cm?",
+                    "options": [
+                        "28 cm",
+                        "14 cm",
+                        "21 cm",
+                        "30 cm"
+                    ],
+                    "correct": 3
+                },
+                {
+                    "id": 4,
+                    "question": "Resolv: 3(x-2) = 15",
+                    "options": [
+                        "2",
+                        "7",
+                        "4",
+                        "5"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 5,
+                    "question": "Quem é conhecido como o 'Príncipe dos Matemáticos'?",
+                    "options": [
+                        "Isaac Newton",
+                        "Carl Friedrich Gauss",
+                        "Leonhard Euler",
+                        "Euclides"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 6,
+                    "question": "Qual é o nome do conjunto de todos os números racionais e irracionais?",
+                    "options": [
+                        "Números inteiros",
+                        "Números naturais",
+                        "Números reais",
+                        "Números complexos"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "id": 7,
+                    "question": "Se um triângulo tem lados de comprimento 5, 12 e 13, qual é a sua área?",
+                    "options": [
+                        "30",
+                        "60",
+                        "36",
+                        "72"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 8,
+                    "question": "Um número é dividido por 5, e o resultado é 12,4. Qual era o número inicial?",
+                    "options": [
+                        "62",
+                        "63",
+                        "62,5",
+                        "65"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "id": 9,
+                    "question": "O dobro de um número somado a 7 é igual a 25. Qual é o número?",
+                    "options": [
+                        "5",
+                        "9",
+                        "10",
+                        "7"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "id": 10,
+                    "question": "Como é chamado o polígono que tem 12 lados?",
+                    "options": [
+                        "Dodecágono",
+                        "Decágono",
+                        "Hexágono",
+                        "Pentágono"
+                    ],
+                    "correct": 0
+                }
+            ]
+        }
+    }
+}
