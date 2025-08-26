@@ -309,14 +309,14 @@
                 },
                 {
                     "id": 8,
-                    "question": "Um número é dividido por 5, e o resultado é 12,4. Qual era o número inicial?",
+                    "question": "Numa caixa há 5 bolas vermelhas, 3 azuis e 2 verdes. Uma bola é sorteada ao acaso. Qual é a probabilidade de não sair vermelha?",
                     "options": [
-                        "62",
-                        "63",
-                        "62,5",
-                        "65"
+                        "20%",
+                        "30%",
+                        "40%",
+                        "50%"
                     ],
-                    "correct": 0
+                    "correct": 3
                 },
                 {
                     "id": 9,
