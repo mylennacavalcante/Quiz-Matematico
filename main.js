@@ -5,7 +5,7 @@ import animationManager from './animations.js';
 const CONFIG = {
     transitionDuration: 0.5,
     animationDelay: 100,
-    questionsFile: './questions.json' // Caminho para seu arquivo JSON
+    questionsFile: 'questions.json' // Caminho para seu arquivo JSON
 };
 
 // Classe principal da aplicação
