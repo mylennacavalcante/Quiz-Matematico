@@ -1,13 +1,13 @@
 // Animação do título
-gsap.from("h1", {
+gsap.from(".container h1", {
   duration: 2,
   y: -150,
-  opacity: 0,
+  opacity: 1,
   ease: "bounce"
 });
 
 // Animação dos botões, um depois do outro
-gsap.from(".link", {
+gsap.from(".link a", {
   duration: 2,
   opacity: 0,
   y: 90,

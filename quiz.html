@@ -12,34 +12,50 @@
     <section id="quiz" class="container">
         <div class="quiz-container">
             <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" id="progressBar"></div>
             </div>
             <div class="pontuacao">
-                <p class="pontuacao">Pontuação 0/0</p>
+                <p class="pontuacao" id="scoreDisplay">Pontuação 0/0</p>
             </div>
             <div class="question" id="question">
-                <p></p>
+                <p id="questionText"></p>
             </div>
-            <div>
-                <p class="option"></p>
-            </div>
-            <div>
-                <p class="option"></p>
-            </div>
-            <div>
-                <p class="option"></p>
-            </div>
-            <div>
-                <p class="option"></p>
+            <div class="options-container">
+                <div class="option-wrapper">
+                    <p class="option" id="option1"></p>
+                </div>
+                <div class="option-wrapper">
+                    <p class="option" id="option2"></p>
+                </div>
+                <div class="option-wrapper">
+                    <p class="option" id="option3"></p>
+                </div>
+                <div class="option-wrapper">
+                    <p class="option" id="option4"></p>
+                </div>
             </div>
             <div class="btn">
-                <button id="next-button">Próxima Pergunta</button>
+                <button id="nextBtn" style="display: none;">Próxima</button>
             </div>
+        </div>
 
+        <!-- Modal de Resultado -->
+        <div class="result-modal" id="resultModal" style="display: none;">
+            <div class="result-content">
+                <h2 id="resultTitle">Quiz Finalizado!</h2>
+                <div class="final-score" id="finalScore">0%</div>
+                <p class="result-message" id="resultMessage"></p>
+                <div class="result-buttons">
+                    <button class="btn-restart" id="btnRestart">Refazer Quiz</button>
+                    <button class="btn-home" id="btnHome">Menu Principal</button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <script type="module" src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script type="module" src="animations.js"></script>
+    <script type="module" src="quiz.js"></script>
 </body>
 
 </html>

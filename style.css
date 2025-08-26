@@ -12,6 +12,7 @@ body {
     background-image: url('https://res.cloudinary.com/dyjrn5gjk/image/upload/v1755451802/pen_2_jwfmup.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -88,7 +89,7 @@ button:hover {
 }
 
 .quiz-container {
-    max-width: 100%;
+    min-width: 100%;
     height: 95%;
     background-color: #a8b3a028;
     backdrop-filter: blur(10px);
@@ -104,7 +105,6 @@ button:hover {
 }
 
 .option {
-    gap: 2rem;
     text-align: center;
     list-style: none;
     margin: 1rem 0;
@@ -162,4 +162,63 @@ button {
     padding: 10px 20px;
     border-radius: 2rem;
     background-color: #bfc5bbca;
+}
+
+/* Modal de Resultado */
+.result-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    backdrop-filter: blur(5px);
+}
+
+.result-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.result-content {
+    background: #a8b3a028;
+    backdrop-filter: blur(15px);
+    padding: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(0.7);
+    transition: transform 0.3s ease;
+}
+
+.result-modal.show .result-content {
+    transform: scale(1);
+}
+
+.final-score {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #b6d4a3;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 1rem 0;
+}
+
+.result-message {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #bfc5bb;
+}
+
+.result-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
